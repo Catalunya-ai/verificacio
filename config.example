@@ -1,0 +1,9 @@
+# Example configuration: variable names with dummy values only.
+# The scripts read these from the process environment; they do not read files.
+# Export them in your shell, for example: export DATABASE_URL=...
+
+# Connection to your own PostgreSQL database.
+DATABASE_URL=postgres://user:pass@localhost:5432/menjometre
+
+# Optional: application token for the open-data portal (fewer rate limits).
+SODA_APP_TOKEN=

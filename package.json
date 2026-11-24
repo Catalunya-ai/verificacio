@@ -1,0 +1,25 @@
+{
+  "name": "menjometre-verificacio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Codi que calcula les xifres publicades del Menjòmetre a partir de les fonts oficials obertes.",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "sql": "tsx src/pipeline/run-sql.ts"
+  },
+  "dependencies": {
+    "pg": "8.13.1",
+    "tsx": "4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.37",
+    "@types/pg": "8.11.10",
+    "typescript": "5.9.3",
+    "vitest": "2.1.9"
+  }
+}
