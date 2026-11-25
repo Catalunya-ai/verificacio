@@ -1,6 +1,8 @@
-# Menjòmetre: codi de verificació
+# Catalunya.ai: codi de verificació
 
-**El codi que calcula el *score* i les xifres de subvencions, contractes i organismes atorgants és obert (AGPL-3.0-or-later): és aquest repositori.** Aquest repositori conté el codi per reproduir i auditar, a partir de les fonts oficials obertes, aquestes xifres del Menjòmetre a [catalunya.ai](https://catalunya.ai): els imports per beneficiari, els totals, les sèries anuals, l'anàlisi dels organismes atorgants i el *score* Menjòmetre. La resta de xifres del portal no hi són.
+**El codi que calcula el *score* i les xifres de subvencions, contractes i organismes atorgants és obert (AGPL-3.0-or-later): és aquest repositori.** Aquest repositori conté el codi per reproduir i auditar, a partir de les fonts oficials obertes, aquestes xifres que Catalunya.ai publica a [catalunya.ai](https://catalunya.ai): els imports per beneficiari, els totals, les sèries anuals, l'anàlisi dels organismes atorgants i el *score* Menjòmetre. La resta de xifres del portal no hi són.
+
+Catalunya.ai és una iniciativa del Menjòmetre.
 
 Hi trobareu:
 
@@ -162,7 +164,9 @@ AGPL-3.0-or-later. Vegeu [LICENSE](LICENSE) i [NOTICE](NOTICE). Si modifiqueu aq
 
 ## English
 
-**The code that computes the score and the figures for grants, contracts and granting bodies is open (AGPL-3.0-or-later): it is this repository.** This repository holds the code to reproduce and audit, from the official open data, these figures the Menjòmetre publishes on [catalunya.ai](https://catalunya.ai): amounts per beneficiary, totals, yearly series, the granting-body analysis and the Menjòmetre score. Other figures of the site are not covered.
+**The code that computes the score and the figures for grants, contracts and granting bodies is open (AGPL-3.0-or-later): it is this repository.** This repository holds the code to reproduce and audit, from the official open data, these figures that Catalunya.ai publishes on [catalunya.ai](https://catalunya.ai): amounts per beneficiary, totals, yearly series, the granting-body analysis and the Menjòmetre score. Other figures of the site are not covered.
+
+Catalunya.ai is an initiative of the Menjòmetre.
 
 It is **not** the product: the website, MCP server, assistant, billing, accounts and infrastructure are private and not included. It ships **no data**: the connectors download it from the official sources (table above) into a PostgreSQL database of your own.
 
